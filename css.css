@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+body {
+    background-color: #fff;
+    margin: 0;
+    font-family:'Open Sans', 'helvetica', sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    background-color: #0a0a0a;
+    width: 100vw;
+    height: 100px;
+}
+
+#logodiv {
+    float: left;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px 40px;
+    margin: 20px;
+}
+
+#menu {
+    float: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 30px;
+}
+
+.slider-artists p{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.button {
+    padding: 10px 20px;
+    color: #eee;
+    display: block;
+}
+
+.button:hover {
+    background-color: #3a3a3a;
+}
+
+.tickets {
+    background-color: #3a3a3a;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.tickets:hover {
+    background-color: #2a2a2a;
+}
+
+.slider-artists {
+    width: 100vw;
+    height: 600px;
+    background-color: #ccc;
+}
+
+.content {
+    width:100vw;
+}
+
+.firstpage {
+    width: 100vw;
+}
+
+.firstpage h1 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.firstpage p {
+    text-align: center;
+    font-size: 1.2em;
+    margin:0;
+}
+
+.columncont {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.column {
+    width: 50vw;
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+}
+
+.instafeed {
+    width: 100vw;
+    background-color: #ccc;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    /* got flex fix from https://www.sketchingwithcss.com/samplechapter/cheatsheet.html */
+}
+
+.instabox {
+    width: 25vw;
+    height: 25vw;
+    box-shadow: inset 0px 0px 0px 1px #aaa;
+}
+
+.instatext {
+    width: 50vw;
+    height: 25vw;
+    background-color: #fff;
+    text-align: center;
+}
+
+#ticket-banner {
+    background-color: #0a0a0a;
+    color: #ccc;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    width: 100vw;
+    padding: 25px 0 25px 0;
+    margin-bottom:50px;
+}
+
+#ticket-banner:hover {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.sponsorcont {
+    width: 75vw;
+    margin:0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+
+.sponsor {
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+
+.sponsor img {
+  max-width: 300px;
+  max-height: 100px;
+}
+
+#footer {
+    background-color: #0a0a0a;
+    color: #eee;
+    height: 200px;
+    padding: 40px;
+}
+
+#footer th {
+    text-align: left;
+}
+
+#footer td {
+    padding-right: 5px;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footerlogo {
+    border: 1px solid #fff;
+    padding: 20px;
+    color: #fff;
+    float: right;
+}
